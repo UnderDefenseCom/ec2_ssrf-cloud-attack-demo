@@ -1,0 +1,49 @@
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROATTJ2OQOVM6NVAP3XG:access-analyzer",
+    "arn": "arn:aws:sts::247620076458:assumed-role/AWSServiceRoleForAccessAnalyzer/access-analyzer",
+    "accountId": "247620076458",
+    "accessKeyId": "ASIATTJ2OQOVFH67IZLZ",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROATTJ2OQOVM6NVAP3XG",
+        "arn": "arn:aws:iam::247620076458:role/aws-service-role/access-analyzer.amazonaws.com/AWSServiceRoleForAccessAnalyzer",
+        "accountId": "247620076458",
+        "userName": "AWSServiceRoleForAccessAnalyzer"
+      },
+      "attributes": {
+        "creationDate": "2023-10-17T13:09:20Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "access-analyzer.amazonaws.com"
+  },
+  "eventTime": "2023-10-17T13:09:20Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "ListBuckets",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "access-analyzer.amazonaws.com",
+  "userAgent": "access-analyzer.amazonaws.com",
+  "requestParameters": {
+    "Host": "s3.amazonaws.com"
+  },
+  "responseElements": null,
+  "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "bytesTransferredIn": 0,
+    "AuthenticationMethod": "AuthHeader",
+    "x-amz-id-2": "2ZQHUVnhoN7APOKH2txCDfEVhS2gDkSLD/A3zf4FCemJOc9TdrB0w83q57d1ugKOEZxydHUxH54=",
+    "bytesTransferredOut": 534
+  },
+  "requestID": "QXH1B3HX770HPSGH",
+  "eventID": "21e8dd83-bf4e-4ce4-b04e-c3287a115dcf",
+  "readOnly": true,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "247620076458",
+  "eventCategory": "Management"
+}

@@ -1,0 +1,7 @@
+services:
+  ec2_ssrf:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 80:3000
